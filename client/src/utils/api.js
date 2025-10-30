@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const BASE = Object.freeze({
   dev : "http://localhost:5000",
-  prod : "https://mini-cart-app.onrender.com"
+  prod : "https://mini-cart-app-hq7r.onrender.com"
 })
 
 export const publicApi = axios.create({
